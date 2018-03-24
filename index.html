@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+
+            493d036f17864967ab0ee66dde4d5a83
+
+    $("button").on("click", function() {
+
+      var searchTerm = $("#searchTerm").val().trim();
+      var numRecords = $("#numRecords").val().trim();
+      var startYear = $('#startYear').val().trim();
+      var endYear = $('#endYear').val().trim();
+      var queryURL = "http://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + searchTerm + " " + numRecords +
+        "?begin_date=" + startYear + "?end_date=" + endYear + "&api_key=493d036f17864967ab0ee66dde4d5a83";
+
+        http://api.nytimes.com/svc/search/v2/articlesearch.json?q=new+york+times&page=2&sort=oldest&api-key=####
+
+
+
+      $.ajax({
+        url: queryURL,
+        method: "GET"
+      }).then(function(response) {
+
+
+
+
+</body>
+</html>
