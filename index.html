@@ -116,11 +116,9 @@
       }).then(function(response) {
 
         console.log(searchTerm);
-        console.log(queryURL);
         console.log(response);
-
-
-    //         <div class="panel-body">
+    
+    //    <div class="panel-body">
     //    <div id="article-title"></div>
     //    <div id="author"></div>
     //    <div id="article-link"></div>
@@ -128,11 +126,9 @@
     //    var articleTitle = 
        
          for (i = 0; i < numRecords + 1; i++) {
-       $("#article-title").text(response.docs[i].headline.main);
-       console.log(response.docs[0].headline.main);
 
-
-       $('#topArticles').append(response);
+            $("#article-title").text(response.response.docs[i].headline.main);
+            console.log(response.docs[i].headline.main);
 
          };
       
