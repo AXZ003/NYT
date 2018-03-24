@@ -1,0 +1,66 @@
+.jumbotron {
+
+    text-align: center;
+    border: 5px solid #3B5ABD;
+    width: 70%;
+    margin: auto;
+    background-color: #3B5ABD;
+    color: white;
+    margin-bottom: 30px;
+
+}
+
+#title {
+
+float: none;
+
+}
+
+h1 {
+    margin-left: 200px;
+    /* margin-right: 50px; */
+
+}
+
+.paper {
+float: left;
+margin-left: 100px;
+margin-right: 50px;
+
+
+}
+
+.row {
+
+    text-align: left;
+   
+
+}
+
+.panel-title {
+
+    font-weight: bolder;
+    color: white;
+}
+
+.input-group {
+
+    width:60%;
+    margin: auto;
+}
+.input-group-addon {
+
+   text-align: left;
+    margin: auto;
+    font-weight: bolder;
+    color: white;
+}
+.panel-default>.panel-heading {
+    background-color: #3B5ABD;
+}
+
+#basic-addon1 {
+
+    background-color: #3B5ABD
+
+}
