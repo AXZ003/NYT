@@ -60,7 +60,21 @@ margin-right: 50px;
 }
 
 #basic-addon1 {
-
+    
     background-color: #3B5ABD
 
 }
+
+button {
+    margin-top: 30px;
+    background-color: lightgrey;
+    size: 40px;
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* #clear-results {
+background-color: grey;
+
+} */
